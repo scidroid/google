@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css">
+	<title>Google Clone</title>
+	<meta name="description" content="Search the world's information, including webpages, images, videos and more. Google Clone has many special features to help you find exactly what you're looking for.">
+	<!-- Google Clone / Search Engine Tags -->
+	<meta itemprop="name" content="Google Clone">
+	<meta itemprop="description" content="Search the world's information, including webpages, images, videos and more. Google Clone has many special features to help you find exactly what you're looking for.">
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="http://google.scidroid.me">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Google Clone">
+	<meta property="og:description" content="Search the world's information, including webpages, images, videos and more. Google Clone has many special features to help you find exactly what you're looking for.">
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Google Clone">
+	<meta name="twitter:description" content="Search the world's information, including webpages, images, videos and more. Google Clone has many special features to help you find exactly what you're looking for.">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="https://mail.google.com/">Gmail</a></li>
+				<li><a href="https://www.google.com/imghp">Imágenes</a></li>
+				<li>
+					<a href="chrome://apps/" target="_BLANK" onclick="alert('Esto no funciona ;)');"><img src="./assets/9-squares-icon.jpeg" alt="menu"
+            /></a>
+          </li>
+          <li><a href="https://myaccount.google.com/"><img src="./assets/logo.png" alt="user" /></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <figure id="banner">
+        <img src="./assets/banner.png" alt="google banner" />
+      </figure>
+        <label for="search">
+          <img src="./assets/google-search.jpg" alt="search" />
+          <input type="text" name="text" id="search" />
+          <img  onclick="alert('Esto no funciona ;)');"
+            src="./assets/google-mic.png
+                "
+            alt="search with mic"
+          />
+        </label>
+      <button id="searchBtn" onclick="window.open(`https://www.google.com/search?q=${getElementById('search').value}`);">Buscar con Google</button>
+        <button id="lucky">Me siento con suerte</button>
+    </main>
+    <footer>
+      <ul id="footer-left">
+        <li><a href="https://about.google/">Sobre Google</a></li>
+        <li><a href="https://ads.google.com">Publicidad</a></li>
+        <li><a href="https://smallbusiness.withgoogle.com/">Negocios</a></li>
+        <li><a href="https://www.google.com/search/howsearchworks">Cómo funciona la Búsqueda</a></li>
+      </ul>
+      <ul id="footer-rigth">
+        <li><a href="https://policies.google.com/privacy">Privacidad</a></li>
+        <li><a href="https://policies.google.com/terms">Condiciones</a></li>
+        <li><a href="#" onclick="alert('Esto no funciona ;)');">Preferencias</a></li>
+      </ul>
+    </footer>
+  <script src="
+  ./index.js"></script>
+  </body>
+</html>
